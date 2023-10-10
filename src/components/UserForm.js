@@ -13,8 +13,8 @@ function UserForm() {
     const [inputs, setInputs] = useState(initialInput); //input 
     const [addList, setAddList] = useState([]); //리스트 추가
     const [appear, setAppear] = useState(false); //리스트 초기에 안보임
-    const [alert, setAlert] = useState(false); //빈칸 경고창 띄우기
-    const [ageAlert, setAgeAlert] = useState(false); //나이 경고창 띄우기
+    const [alert, setAlert] = useState(false); //빈칸 alert 띄우기
+    const [ageAlert, setAgeAlert] = useState(false); //나이 alert 띄우기
     const [backLayer, setBackLayer] = useState(false); //팝업 배경
 
     const { userName, userAge } = inputs;
